@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.3</version>
+		<version>2.6.6</version>
 		<relativePath/>
 	</parent>
 
@@ -20,18 +20,16 @@
 		<java.version>11</java.version>
 		<assertj.version>3.11.1</assertj.version>
 
-		<spring-boot.version>2.6.3</spring-boot.version>
-		<spring-cloud.version>2021.0.0</spring-cloud.version>
+		<spring-boot.version>2.6.6</spring-boot.version>
+		<spring-cloud.version>2021.0.1</spring-cloud.version>
         <spring-cloud-services.version>3.3.0</spring-cloud-services.version>
 		<wavefront.version>2.2.2</wavefront.version>
-
 		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
-
-		<webjars-bootstrap.version>3.3.7-1</webjars-bootstrap.version>
+		<webjars-bootstrap.version>4.5.0</webjars-bootstrap.version>
 		<webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
-		<webjars-jquery.version>3.1.1-1</webjars-jquery.version>
-		<webjars-angular.version>1.8.2</webjars-angular.version>
-		<webjars-angular-ui-router.version>1.0.3</webjars-angular-ui-router.version>
+		<webjars-jquery.version>3.5.0</webjars-jquery.version>
+		<webjars-angular.version>1.6.4</webjars-angular.version>
+		<webjars-angular-ui-router.version>1.0.20</webjars-angular-ui-router.version>
 		<wro4j.version>1.8.0</wro4j.version>
         <spring-boot.build-image.imageName>${REPOSITORY_PREFIX}/spring-petclinic-cloud-api-gateway</spring-boot.build-image.imageName>
 
